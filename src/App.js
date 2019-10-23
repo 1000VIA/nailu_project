@@ -1,7 +1,5 @@
 import React from "react";
 import ButtonGeneral from "./components/Button/Button";
-import "./App.css";
-import React from 'react';
 import Logo from './Components/logo/Logo'
 import './App.css';
 import { animateScroll as scroll } from 'react-scroll'
@@ -13,7 +11,9 @@ class App extends React.Component {
       .then(console.log);
   }
 
-  handlerClick = () => {};
+  handlerClick = () => {
+  }
+
   toScrollup = () => {
     scroll.scrollToTop()
 }
